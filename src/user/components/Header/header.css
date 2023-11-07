@@ -1,0 +1,33 @@
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 30px 25px;
+}
+
+.perfil-container h2 {
+    margin: 0; 
+    font-size: 24px;
+    font-weight: 400;
+    color: #D9D9D9
+}
+.perfil-container h2 b { 
+    color: #FFFF
+}
+.perfil-container span { 
+    font-size: 16px;
+    font-weight: 400;
+    color: #D9D9D9;
+}
+
+.img-container {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-container img {
+    height: 130%;
+}
+

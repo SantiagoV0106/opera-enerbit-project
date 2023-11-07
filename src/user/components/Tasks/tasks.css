@@ -1,0 +1,105 @@
+.tasks-container {
+    margin: 0 30px 15px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #626262;
+}
+
+.header-title span {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.view-more {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    color: #626262;
+    font-size: 16px;
+}
+
+.task-section-container {
+    margin-bottom: 20px;
+}
+
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.active-task-date {
+    margin: 0;
+    padding: 2px 8px;
+    border-radius: 5px;
+    background-color: #53358E;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.task-date {
+    margin: 0;
+    padding: 2px 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #626262;
+}
+
+.meridiem-span {
+    font-size: 16px;
+    font-style: normal;
+    color: #626262;
+}
+
+.task-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    padding: 16px 14px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(83, 53, 142, 0.15);
+}
+
+.task-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.task-info p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.see-more-icon {
+    color: #ED7004;
+}

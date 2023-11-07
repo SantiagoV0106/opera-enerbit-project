@@ -1,0 +1,43 @@
+.rank-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin: 0 30px 20px;
+}
+
+.rank-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-rank-contianer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 41px;
+    min-height: 41px;
+    border-radius: 8px;
+    background-color: rgba(83, 54, 142, 0.5);
+    margin-right: 10px;
+}
+
+.rank-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rank-title-container h2 {
+  margin: 0;
+  font-size: 15px;
+  color: #626262;
+  font-weight: 400;
+}
+.rank-title-container span {
+  margin: 0;
+  color: #626262;
+  font-size: 16px;
+  font-weight: 700;
+}

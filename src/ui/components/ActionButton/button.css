@@ -1,0 +1,12 @@
+.action-button {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #ED7004;
+}
