@@ -10,7 +10,7 @@ export function Calendar() {
 
     const [currentDate, setCurrentDate] = useState(new Date())
 
-    const daysOfWeek = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB']
+    const daysOfWeek = ['LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB','DOM']
 
     console.log(currentDate);
     console.log(currentDate.getDate());
@@ -20,10 +20,13 @@ export function Calendar() {
             <FaChevronLeft className='calendar-icon' />
             {
                 daysOfWeek.slice(0, 5).map((day, i) => {
+                    const today = new Date()
+                    today.setHours(0,0,0,0)
+                    const dayIndex = (today.getDay() + 6) % 7
                     return (
-                        <div key={i} className={currentDate.getDate() === currentDate.getDate() - 1 + i ? 'current-day-container' : 'day-container'}>
-                            <p className={currentDate.getDate() === currentDate.getDate() - 1 + i ? 'current-day-date' : 'day-date'} > {day} </p>
-                            <p className={currentDate.getDate() === currentDate.getDate() - 1 + i ? 'current-number-date' : 'number-date'}> {currentDate.getDate() - 1 + i} </p>
+                        <div key={i} className={i === dayIndex ? 'current-day-container' : 'day-container'}>
+                            <p className={i === dayIndex ? 'current-day-date' : 'day-date'} > {day} </p>
+                            <p className={i === dayIndex ? 'current-number-date' : 'number-date'}> {currentDate.getDate() - dayIndex + i} </p>
                         </div>
 
                     )
