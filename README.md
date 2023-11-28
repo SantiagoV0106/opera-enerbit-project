@@ -9,6 +9,7 @@ PASO A PASO:
   6- Al desplegarse el partado de la parte derecha de la pantalla dar click al ícono de la parte superior izquierda del apartado que representa un computador con un celular
   7- En el centro de la pantalla parte superior hay una opción nombrada "dimesiones" a la cual debe darle click y seleccionar "iphone 14 Pro Max"
 
+DIMENSIONES DE AGREGAR DISPOSITIVO: 430px X 932px
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
