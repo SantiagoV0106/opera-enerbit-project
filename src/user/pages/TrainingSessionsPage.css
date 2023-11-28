@@ -1,0 +1,41 @@
+.header-training {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 98px 30px 31px;
+    color: white;
+}
+
+.header-training-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.old-trainings-section {
+    margin: 45px 30px 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.header-old-training {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 81px;
+    margin: 0 0 16px;
+}
+
+.old-training-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #999999;
+    margin: 0;
+}
+
+.filter-training {
+    width: 24px;
+    height: 24px;
+}

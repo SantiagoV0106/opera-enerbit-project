@@ -1,0 +1,8 @@
+.header-tasks-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 130px 30px 50px;
+    color: white;
+}

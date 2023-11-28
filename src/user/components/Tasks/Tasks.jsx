@@ -1,5 +1,5 @@
 import taskInfo from '../../const/infoTasks'
-
+import { useNavigate } from 'react-router-dom'
 // icons
 import { FaChevronRight } from 'react-icons/fa'
 
@@ -7,6 +7,7 @@ import './tasks.css'
 
 export function Tasks() {
 
+    const navigate = useNavigate()
 
     return (
         <section className="tasks-container">
@@ -17,7 +18,7 @@ export function Tasks() {
                         Revisa tu orden del día
                     </span>
                 </h2>
-                <p className='view-more'>Ver más <FaChevronRight /> </p>
+                <p className='view-more' onClick={()=> navigate('/tasks')}>Ver más <FaChevronRight /> </p>
             </div>
 
             {

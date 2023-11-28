@@ -1,0 +1,60 @@
+.big-training-start-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.training-start-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(83, 53, 142, 0.15);
+    border-radius: 10px;
+    gap: 10px;
+    padding: 14.35px 64px 14.35px 14.35px;
+}
+
+.enerbit-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.line-deco {
+    background-color: #999999;
+    width: 1px;
+    height: 32px;
+}
+
+.info-start-card h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #999999;
+    margin: 0;
+}
+
+.info-start-card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0;
+}
+
+.play-training-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100px;
+    background-color: #ED7004;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 262px;
+    z-index: 2;
+}
+
+.play-icon {
+    width: 20px;
+    height: 20px;
+}

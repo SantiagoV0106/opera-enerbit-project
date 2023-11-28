@@ -1,0 +1,37 @@
+.podio-btns-div {
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(83, 53, 142, 0.15);
+    padding: 8px;
+}
+
+/* .podio-btns-div button {
+    border: none;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    color: #53358E;
+    width: 179px;
+    height: 24px;
+    padding: 0;
+} */
+
+.podio-btns-div button {
+    border: none;
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    color: #53358E;
+    width: 179px;
+    height: 24px;
+    padding: 0;
+    cursor: pointer;
+}
+  
+.podio-btns-div button.activo {
+    background-color: #D3CBE3;
+}

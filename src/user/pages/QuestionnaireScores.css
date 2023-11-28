@@ -1,0 +1,75 @@
+.header-questionnaire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 98px 30px 141px;
+    color: white;
+}
+
+.header-score-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.medal-star-img {
+    width: 172px;
+    height: 172px;
+    margin-top: 166px;
+    margin-left: 127.5px;
+    margin-right: 127.5px;
+    position: absolute;
+}
+
+.score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 39px 39px 0 0;
+    padding: 0 29px 150px;
+    height: 560px;
+    overflow-y: auto;
+}
+
+.score-text-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #53358E;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    gap: 8px;
+    margin: 75px 0 13px;
+}
+
+.score-text-title span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.users-list-section {
+    margin: 18px 0;
+}
+
+.end-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #ED7004;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    width: 370px;
+    position: absolute;
+    margin-top: 770px;
+    margin-left: 30px;
+}

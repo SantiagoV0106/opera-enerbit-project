@@ -1,0 +1,79 @@
+.old-training-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(83, 53, 142, 0.15);
+    border-radius: 15.26px;
+    gap: 10px;
+    padding: 25px;
+    margin: 15px 0;
+}
+
+.header-old-training-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.old-training-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.header-old-training-card h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0 182px 0 10px;
+}
+
+.old-training-container h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #999999;
+    margin: 0;
+}
+
+.old-training-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    width: 256.67px;
+    margin: 0;
+}
+
+.footer-old-training {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.percentage-div {
+    margin-right: 62px;
+}
+
+.percentage-bar {
+    border-radius: 20px;
+    background-color: #53358E;
+    width: 150px;
+    height: 7px;
+}
+
+.certificado-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.certificado-div h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    margin: 0;
+}
+
+.certificado-icon {
+    width: 11px;
+    height: 11px;
+}

@@ -1,0 +1,12 @@
+.training-time-container {
+    background-color: rgba(17, 17, 17, 0.9);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.training-time-container h1 {
+    font-size: 11.16px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}

@@ -1,9 +1,12 @@
+import { useNavigate } from 'react-router-dom'
 import { ActionButton } from '../../../ui/components'
 // icons
 import { FaChevronRight } from 'react-icons/fa'
 import './rank.css'
 
 export function Rank() {
+    const navigate = useNavigate()
+
     return (
         <div className="rank-container">
             <div className="rank-info-container">
@@ -19,7 +22,7 @@ export function Rank() {
                     </span>
                 </div>
             </div>
-            <ActionButton type='button' title='Revisa tu progreso' icon={<FaChevronRight/>} />
+            <ActionButton type='button' onClick={() => navigate('/profile')} title='Revisa tu progreso' icon={<FaChevronRight/>} />
         </div>
     )
 }

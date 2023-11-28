@@ -1,0 +1,123 @@
+.form-header-container {
+    display: flex;
+    align-items: center;
+    margin: 80px 35px 10px;
+    gap: 20%;
+}
+.form-header-container h2 {
+  color: #626262;
+  margin: 0;
+}
+
+.icon-form {
+    color: #ED7004;
+}
+
+.bar {
+    height: 5px;
+    width: calc(90% - 35px);
+    border-radius: 8px;
+    margin: 10px 35px;
+    background-color: rgba(84, 53, 129, 0.2);
+}
+
+.progress {
+    height: 5px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: #ED7004;
+}
+.progress-2 {
+    height: 5px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: #ED7004;
+}
+.progress-3 {
+    height: 5px;
+    width: 50%;
+    border-radius: 8px;
+    background-color: #ED7004;
+}
+.progress-4 {
+    height: 5px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ED7004;
+}
+
+.form-header {
+    background-color: #53358E;
+    color: #ffff;
+    border-radius: 8px;
+    margin: 10px 35px 0;
+    padding: 10px 12px;
+}
+
+.form-header h2 {
+margin: 0;
+font-size: 18px;
+font-weight: 400;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 35px;
+    gap: 10px;
+    padding: 10px 0 120px;
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.input-form {
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid #53358E;
+}
+
+.input-form::placeholder {
+    font-size: 16px;
+    color: #53358E;
+}
+
+.input-form-container {
+    border-radius: 8px;
+    border: 1px solid #53358E;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+.input-form-container h2 {
+   margin: 0 0 10px;
+   color: #53358E;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+#observaciones {
+    border: 1px solid #53358E;
+    background-color: transparent;
+    border-radius: 8px;
+    resize: none;
+    padding: 10px;
+    color: #53358E;
+    font-family:'Source Sans 3', sans-serif;
+}
+
+#observaciones::placeholder{
+    color: #53358E;
+    font-family:'Source Sans 3', sans-serif;
+}
+
+
+
+.btn-form {
+    padding: 12px 17px;
+    background-color: #ED7004;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;;
+}

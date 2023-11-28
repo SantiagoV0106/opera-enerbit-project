@@ -7,7 +7,7 @@ const infoTrainig = [
     {
         id : crypto.randomUUID(),
         icon : '/operaIcon.png',
-        title : 'Conoce Ópera'
+        title : 'Conoce Ópera',
     }
 ]
 

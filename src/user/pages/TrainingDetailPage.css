@@ -1,0 +1,91 @@
+.header-color-detail {
+    position: absolute;
+    background: linear-gradient(to top, rgb(83, 53, 142), rgba(83, 53, 142, 0.25));
+    width: 428px;
+    height: 232px;
+    z-index: -1;
+}
+
+.background-training-img {
+    position: absolute;
+    width: 428px;
+    height: 232px;
+    z-index: -2;
+}
+
+.background-img {
+    position: absolute;
+    z-index: -3;
+}
+
+.header-training-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin: 98px 30px 95px;
+    color: white;
+}
+
+.header-training-detail-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.start-card-section {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    margin: 188px 33px 0;
+    z-index: 1;
+}
+
+.training-detail-section {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(83, 53, 142, 0.15);
+    border-radius: 10px 10px 0 0;
+    padding: 0 29px;
+    /* margin: 0 30px; */
+}
+
+.training-detail-section h1 {
+    color: #999999;
+    margin: 79px 0 0;
+}
+
+.training-detail-section p {
+    color: #727272;
+    margin: 21px 0 0 ;
+}
+
+.questionnaire-btns-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin: 97px 0 224px 0;
+}
+
+.questionnaire-btns-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #999999;
+    margin: 0;
+}
+
+.btn-do-questionnaire {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #ED7004;
+    color: white;
+    width: 350px;
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+.users-list-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.emanuel-div {
+    background-color: #D3CBE3;
+}
+
+.info-user-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 12px;
+    gap: 10px;
+}
+
+.position-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+
+.photo-user {
+    width: 52px;
+    height: 52px;
+}
+
+.name-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    width: 211px;
+    margin: 0;
+}
+
+.score-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+}

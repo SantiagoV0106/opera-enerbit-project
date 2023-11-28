@@ -1,3 +1,8 @@
+/* #root {
+    max-width: 428px;
+    max-height: 926px;
+} */
+
 main { 
     height: 100vh;
     display: flex;
